@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Student Portfolio</title>
+    <style>
+        body {
+           
+            font-family: Arial, sans-serif;
+            margin: 100;
+            padding: 0;
+            height: 100vh; 
+            background: linear-gradient(135deg, #87ceeb, #b0e0e6); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .header {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #003366; 
+            padding: 10px;
+            z-index: 1000; 
+        }
+        .header a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .header a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .section p {
+            margin: 5px 0;
+        }
+        .project-list, .seminar-list, .skill-list{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="personal.html">Personal</a>
+        <a href="education.html">Education</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <br><br>
+    <h1>About Me</h1>
+    <p>I am a 3rd year engineering student at Velalar College of Engineering and Technology.\</p>
+    <div class="section" id="seminars">
+        <h2>Seminars</h2>
+        <div class="seminar-list">
+            <p><strong>1. 5G Technology:</strong><ul>Attended a seminar on the fundamentals of 5G Technology held on March 10, 2023.</ul></p>
+        </div>
+    </div>
+    <div class="section" id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <p><strong>1. Minimizing food waste and maximizing social impact:</strong><ul>Developed a app for collect the food and send a notification to the delivery persons and give the nearest location of orphanage</ul></p>
+        </div>
+    </div>
+    <div class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+        <p><strong>1 .Programming Languages:</strong><br><ul> Proficient in Java, C and Python.</ul></p>
+        <p><strong>2. Web Development:</strong><br><ul>Experienced with HTML, CSS and JavaScript.</ul></p>
+        </div>
+    </div>
+</body>
+</html>
+
